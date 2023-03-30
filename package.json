@@ -1,0 +1,22 @@
+{
+  "name": "parcel-scss-glob",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImKubass/parcel-scss-glob.git"
+  },
+  "source": "./index.ts",
+  "scripts": {
+    "dev": "parcel watch --no-hmr",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3"
+  }
+}

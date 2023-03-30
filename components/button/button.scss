@@ -1,0 +1,18 @@
+.btn {
+  padding: 16px 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  border: none;
+  z-index: 1;
+  text-decoration: none;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  &:focus,
+  &:active {
+    outline: 0;
+    text-decoration: none;
+  }
+}
